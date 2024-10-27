@@ -1,0 +1,22 @@
+.faq-answer-container {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.4s ease-in-out;
+    background-color: #f1f1f1;
+  }
+  
+  .faq-item.open .faq-answer-container {
+    height: auto;
+    background-color: #ffeb3b;
+    transition: height 0.4s ease-in-out;
+  }
+  
+  .toggle-icon {
+    transition: transform 0.3s ease;
+    color: #ff5722;
+  }
+  
+  .faq-item.open .toggle-icon {
+    transform: rotate(45deg);
+  }
+  

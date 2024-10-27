@@ -1,0 +1,21 @@
+.home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .cta-buttons button {
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

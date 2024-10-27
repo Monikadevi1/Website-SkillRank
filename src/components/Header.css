@@ -1,0 +1,18 @@
+.Header {
+  background: linear-gradient(to right, #ff5722, #ffeb3b);
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: #212529; /* A dark shade to contrast with the background */
+}
+
+.navbar-nav .nav-link {
+  color: #212529; /* A darker color for contrast */
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0f0f0f; /* Lighter color on hover for better visibility */
+  transform: scale(1.1);
+}

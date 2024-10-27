@@ -1,0 +1,80 @@
+SkillRank Documentation
+
+Table of Contents
+1. Overview
+2. Features
+3. Technologies Used
+4. Installation Instructions
+5. Deployment Instructions
+6. Contribution Guidelines
+7. License
+
+Overview:
+SkillRank is an innovative web application designed to help users assess their skills and obtain trusted certifications. The platform provides a seamless user experience with features tailored for both students and professionals.
+
+Features:
+- User Authentication: Simple login functionality to ensure user security.
+- Industry-Specific Assessments: Assessments tailored to various professional fields.
+- Trusted Rank Certificates: Certificates recognized by recruiters and institutions.
+- Community Support: Access to a network of learners and professionals.
+- Contact Us Form: Reach out to the SkillRank team easily through a dedicated contact form.
+
+Technologies Used:
+- Frontend:
+  - React: A JavaScript library for building user interfaces.
+  - Bootstrap: A CSS framework for responsive design.
+  - React Bootstrap: React components built with Bootstrap.
+  - React Icons: Icons for enhanced UI.
+
+- Backend:
+  - Node.js (if applicable): JavaScript runtime for server-side development.
+  - Express.js (if applicable): Web framework for Node.js.
+
+- Deployment:
+  - GitHub: For version control and repository management.
+  - Netlify or Vercel: For hosting the live demo.
+
+Installation Instructions:
+To run the project locally, follow these steps:
+
+1. Clone the Repository:
+
+   git clone https://github.com/yourusername/SkillRank.git
+   cd SkillRank
+
+2. Install Dependencies:
+   Make sure you have Node.js installed. Then run:
+
+   npm install
+
+3. Run the Development Server:
+
+   npm start
+
+4. Access the Application:
+   Open your web browser and navigate to `http://localhost:3000` to see the application in action.
+
+Deployment Instructions:
+To deploy the application, follow these steps:
+
+Deploying on Netlify:
+1. Sign Up / Log In: Go to [Netlify](https://www.netlify.com/) and sign up or log in.
+2. New Site from Git: Click on “New site from Git”.
+3. Connect to GitHub: Authorize Netlify to access your GitHub account.
+4. Select Repository: Choose your SkillRank repository.
+5. Configure Settings:
+   - Set the build command: `npm run build`
+   - Set the publish directory: `build`
+6. Deploy Site: Click on "Deploy site". Once the process is complete, your site will be live.
+
+Deploying on Vercel:
+1. Sign Up / Log In: Go to [Vercel](https://vercel.com/) and sign up or log in.
+2. Import Project: Click on "New Project" and import your GitHub repository.
+3. Configure Settings: Vercel will automatically detect the framework.
+4. Deploy: Click "Deploy" and wait for the process to complete.
+
+Contribution Guidelines:
+If you would like to contribute to this project, please fork the repository and submit a pull request with a clear description of your changes. Make sure to follow the project's coding style and include tests for new features.
+
+License:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
